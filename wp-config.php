@@ -26,7 +26,7 @@ define( 'DB_NAME', 'jl3q23hbr9ote3zo' );
 define( 'DB_USER', 'qrv47pup0ne3o655' );
 
 /** Senha do banco de dados MySQL */
-define( 'DB_PASSWORD', 't0dgrqid8oqtpl1k' );
+define( 'DB_PASSWORD', 'y650miizzzchff2q' );
 
 /** Nome do host do MySQL */
 define( 'DB_HOST', 'gp96xszpzlqupw4k.cbetxkdyhwsb.us-east-1.rds.amazonaws.com' );
