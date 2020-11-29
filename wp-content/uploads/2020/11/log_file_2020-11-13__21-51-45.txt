@@ -1,0 +1,53 @@
+
+---Downloaded files---
+The import files for: Original were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/site
+Data file = C:\xampp\htdocs\site\wp-content\plugins\sydney-toolbox/demo-content/demo-content.xml
+Widget file = C:\xampp\htdocs\site\wp-content\plugins\sydney-toolbox/demo-content/demo-widgets.wie
+Customizer file = C:\xampp\htdocs\site\wp-content\plugins\sydney-toolbox/demo-content/demo-customizer.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Lateral : 
+
+Posts recentes - Recent News - Imported
+Categorias - Categories - Imported
+Arquivos - Archives - Imported
+Nuvem de tags - Popular Tags - Imported
+mc4wp_form_widget - Sign up for Newsletter - Site does not support widget
+
+Rodapé1 : 
+
+Imagem - No Title - Imported
+Texto - No Title - Imported
+
+Rodapé2 : 
+
+Menu - About Us - Imported
+
+Rodapé3 : 
+
+Menu - Services - Imported
+
+footer-4 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Texto - Contact - Imported to Inactive
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+
