@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The template for displaying the footer.
  *
@@ -7,31 +8,56 @@
  * @package Sydney
  */
 ?>
+</div>
+</div>
+</div><!-- #content -->
+
+<?php do_action('sydney_before_footer'); ?>
+
+<?php if (is_active_sidebar('footer-1')) : ?>
+	<?php get_sidebar('footer'); ?>
+<?php endif; ?>
+
+<a class="go-top"><i class="sydney-svg-icon"><?php sydney_get_svg_icon('icon-chevron-up', true); ?></i></a>
+
+<footer id="colophon" class="site-footer texto" role="contentinfo">
+	<div class="site-info container">
+		<div class="row">
+			<div class="col-md-10">
+				&copy; Observatório do Trasnporte. Todos os direitos reservados
+				<span class="sep"> | </span>
+				<span class="cor-texto">Termos de Uso</span> &nbsp&nbsp <span class="cor-texto">Política de Privacidade</span> &nbsp&nbsp <span class="cor-texto">Aviso de Privacidade</span>
 			</div>
+			<div class="col-md-2">
+				<img style="width: 18%;" src="<?php echo site_url('wp-content/uploads/2020/12/face.png') ?>">
+				<img style="width: 18%;" src="<?php echo site_url('wp-content/uploads/2020/12/twitter.png') ?>">
+				<img style="width: 18%;" src="<?php echo site_url('wp-content/uploads/2020/12/instagram.png') ?>">
+				<img style="width: 18%;" src="<?php echo site_url('wp-content/uploads/2020/12/youtube.png') ?>">
+			</div><!-- .site-info -->
 		</div>
-	</div><!-- #content -->
+	</div>
+</footer><!-- #colophon -->
 
-	<?php do_action('sydney_before_footer'); ?>
-
-	<?php if ( is_active_sidebar( 'footer-1' ) ) : ?>
-		<?php get_sidebar('footer'); ?>
-	<?php endif; ?>
-
-    <a class="go-top"><i class="sydney-svg-icon"><?php sydney_get_svg_icon( 'icon-chevron-up', true ); ?></i></a>
-		
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info container">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'sydney' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'sydney' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %2$s by %1$s.', 'sydney' ), 'aThemes', '<a href="https://athemes.com/theme/sydney" rel="nofollow">Sydney</a>' ); ?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-
-	<?php do_action('sydney_after_footer'); ?>
+<?php do_action('sydney_after_footer'); ?>
 
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
 
 </body>
+
 </html>
+<style>
+	.site-footer {
+		background-color: #333333 !important;
+	}
+
+	.texto {
+		font-size: 10px;
+	}
+
+	.cor-texto {
+		color: #d95e57;
+		font-size: 10px;
+	}
+</style>
