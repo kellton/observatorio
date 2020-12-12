@@ -20,6 +20,19 @@ Sydney is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic,
 /*--------------------------------------------------------------
 Social
 --------------------------------------------------------------*/
+
+body, #mainnav ul ul a {
+	font-family:Montserrat-Regular !important;
+}
+
+h1, h2, h3, h4, h5, h6, #mainnav ul li a, .portfolio-info, .roll-testimonials .name, .roll-team .team-content .name, .roll-team .team-item .team-pop .name, .roll-tabs .menu-tab li a, .roll-testimonials .name, .roll-project .project-filter li a, .roll-button, .roll-counter .name-count, .roll-counter .numb-count button, input[type="button"], input[type="reset"], input[type="submit"] { font-family:Montserrat-Regular !important;}
+.site-title { font-size:32px; }
+
+@font-face {
+    font-family: Montserrat-Regular;
+    src: url('fonts/Montserrat-Regular.ttf');
+}
+
 .social-menu-widget {
 	padding: 0;
 	margin: 0 auto;
