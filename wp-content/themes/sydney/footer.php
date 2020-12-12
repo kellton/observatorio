@@ -20,7 +20,7 @@
 
 <a class="go-top"><i class="sydney-svg-icon"><?php sydney_get_svg_icon('icon-chevron-up', true); ?></i></a>
 
-<footer id="colophon" class="site-footer texto" role="contentinfo">
+<footer id="colophon" class="site-footer texto container" role="contentinfo">
 	<div class="site-info container">
 		<div class="row">
 			<div class="col-md-10">
@@ -50,6 +50,8 @@
 <style>
 	.site-footer {
 		background-color: #333333 !important;
+		/*border-right: 5px solid #ccc;
+		border-left: 5px solid #ccc;*/
 	}
 
 	.texto {

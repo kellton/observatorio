@@ -4133,3 +4133,18 @@ SVGs
     position: relative;
     left: -100px;
 }
+
+.wpforms-form button[type=submit] {
+    background-color: #DA5C57 !important;
+    border-color: #DA5C57 !important;
+    color: #fff !important;
+	box-shadow: 5px 6px 5px 5px #dcdcdc
+}
+ 
+.wpforms-form button[type=submit]:hover {
+    background-color: #000 !important;
+}
+
+.maintitle{
+	color:#DA5C57 !important;
+}

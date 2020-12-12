@@ -55,9 +55,10 @@
 
 	<?php do_action('sydney_after_header'); ?>
 
-	<div class="sydney-hero-area">
+	<div class="sydney-hero-area container">
+		<div class="row">
 		<?php sydney_slider_template(); ?>
-		<div class="header-image">
+		<div class="header-image ">
 			<?php sydney_header_overlay(); ?>
 			<?php if ( ( get_theme_mod('front_header_type','nothing') == 'image' && is_front_page() ) || (get_theme_mod('site_header_type') == 'image' && !is_front_page() ) ) : ?>
 				<?php $shop_thumb = get_the_post_thumbnail_url( get_option( 'woocommerce_shop_page_id' )); ?>
@@ -69,10 +70,11 @@
 		<?php sydney_header_video(); ?>
 
 		<?php do_action('sydney_inside_hero'); ?>
-	</div>
+	</div>		</div>
 
 	<?php do_action('sydney_after_hero'); ?>
 
 	<div id="content" class="page-wrap">
-		<div class="container content-wrapper">
+				<!--<div class="container content-wrapper">-->
+		<div class="container">
 			<div class="row">	
