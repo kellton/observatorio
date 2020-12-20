@@ -577,3 +577,17 @@ function sydney_welcome_admin_notice() {
 }
 add_action( 'admin_init', array( 'PAnD', 'init' ) );
 add_action( 'admin_notices', 'sydney_welcome_admin_notice' );
+
+add_action('wp_head','my_analytics', 20);
+function my_analytics() {
+?>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W4XFMEL5DY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-W4XFMEL5DY');
+</script>
+<?php
+}

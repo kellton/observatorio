@@ -24,15 +24,15 @@
 	<div class="site-info container">
 		<div class="row">
 			<div class="col-md-10">
-				&copy; Observatório do Trasnporte. Todos os direitos reservados
+				&copy; Observatório do Transporte. Todos os direitos reservados
 				<span class="sep"> | </span>
-				<span class="cor-texto">Termos de Uso</span> &nbsp&nbsp <span class="cor-texto">Política de Privacidade</span> &nbsp&nbsp <span class="cor-texto">Aviso de Privacidade</span>
+				<a href="<?php echo site_url('termos-e-condicoes') ?>"><span class="cor-texto">Termos de Uso</span></a> &nbsp&nbsp <span class="cor-texto">Política de Privacidade</span> &nbsp&nbsp <span class="cor-texto">Aviso de Privacidade</span>
 			</div>
 			<div class="col-md-2">
-				<img style="width: 18%;" src="<?php echo site_url('wp-content/uploads/2020/12/face.png') ?>">
-				<img style="width: 18%;" src="<?php echo site_url('wp-content/uploads/2020/12/twitter.png') ?>">
-				<img style="width: 18%;" src="<?php echo site_url('wp-content/uploads/2020/12/instagram.png') ?>">
-				<img style="width: 18%;" src="<?php echo site_url('wp-content/uploads/2020/12/youtube.png') ?>">
+				<a href="https://www.facebook.com/Observat%C3%B3rio-do-Transporte-de-Teresina-106246441369872"><img style="width: 18%;" src="<?php echo site_url('wp-content/uploads/2020/12/face.png') ?>"></a>
+				<a href="https://twitter.com/obs_transp_the"><img style="width: 18%;" src="<?php echo site_url('wp-content/uploads/2020/12/twitter.png') ?>"></a>
+				<a href="https://www.instagram.com/obs_transp_the"><img style="width: 18%;" src="<?php echo site_url('wp-content/uploads/2020/12/instagram.png') ?>"></a>
+				<a href="https://www.youtube.com/channel/UCg3S8XtNUa7xkRx-BhOP5rg?view_as=subscriber"><img style="width: 18%;" src="<?php echo site_url('wp-content/uploads/2020/12/youtube.png') ?>"></a>
 			</div><!-- .site-info -->
 		</div>
 	</div>

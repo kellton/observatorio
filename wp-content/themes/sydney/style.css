@@ -1563,6 +1563,7 @@ Blog single
 --------------------------------------------------------------*/
 	.single-post .hentry {
 		padding-bottom: 0;
+		margin-left: 10% !important;
 	}
 	.single-post .author-post {
 		position: relative;
@@ -4160,4 +4161,14 @@ SVGs
 
 .maintitle{
 	color:#DA5C57 !important;
+}
+
+.btn-secondary {
+    color: #fff !important;
+    background-color: #343A40 !important;
+    border-color: #343A40 !important;
+}
+
+.title-post {
+    margin-left: 2% !important;
 }
